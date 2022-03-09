@@ -1,0 +1,27 @@
+header{
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.jfmovie-nav-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-txt-nav);
+}
+.jfmovie-nav-content h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+.jfmovie-contact-container{
+    display: flex;
+    align-items: center;
+}
+.jfmovie-contact-link{
+    margin: 0 0 0 10px;
+    color: var(--color-txt-nav);
+    font-size: 12px;
+}
